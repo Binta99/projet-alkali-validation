@@ -257,3 +257,100 @@ body{
     height: 40px;
     margin: auto;
 }
+
+/* ---------------------section---------------------------------- */
+.sectionfinale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: pink;
+}
+.sous-sec1{
+    text-align: justify;
+    font-size: 12px;
+    width: 300px;
+    padding: 20px;
+}
+.sous-sec1 h1{
+    margin-bottom: 30px;
+    word-spacing: 0px;
+}
+.sous-sec2 p{
+    font-size: small;
+}
+.sous-sous2 p{
+    padding: 10px;
+}
+.sous-sous1 p{
+    padding: 6px;
+}
+
+.sous-sous2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+/* avant derniere--------------------------------------------- */
+
+.sectionfinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.sous-sec1-1{
+    text-align: justify;
+    font-size: 12px;
+    width: 300px;
+    padding: 20px;
+}
+.sous-sec1-1 button{
+    width: 170px;
+    margin-top: 20px;
+    background-color: #5E4DCD;
+    height: 40px;
+    border: none;
+    color: white;
+}
+
+.sous-sous1-1 img{
+    width: 300px;
+    height: 200px;
+}
+
+/* -------------footer-------------------------- */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: gray;
+}
+.foot1{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.fot1{
+    font-size: 12px;
+    padding-left: 100px;
+}
