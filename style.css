@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 
 }
 body{
@@ -75,6 +75,8 @@ body{
     flex-direction: row;
     justify-content: baseline;
     align-items: center;
+    margin: 30px 0;
+    
 }
 
 .bull{
@@ -82,9 +84,62 @@ body{
     height: 250px;
     border-radius: 140%;
     background-color: rgb(183, 183, 236);
+    position: relative;
+    left: 150px;
     
 }
 
 .text {
-    text-align: center;
+    text-align: justify;
+    position: relative;
+    right: 60px;
+}
+
+.text h1 p{
+    margin: 0;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+.text button{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+/* --------------------2eme parti--------------------------------- */
+
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+.allbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 img{
+    width: 200px;
+    height: 150px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
