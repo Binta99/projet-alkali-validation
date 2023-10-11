@@ -114,32 +114,146 @@ body{
 .container{
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    margin-top: 80px;
-   margin-bottom: 80px;
+   margin-bottom: 30px;
+}
+.tex2{
+    padding-bottom: 70px;
 }
 
 .allbox{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    width: 100%;
+}
+
+.allbox p{
+    font-size: 12px;
+    font-style: normal;
+    
 }
 
 .box{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+    flex-wrap: wrap;
 }
 
 .box1 img{
     width: 200px;
-    height: 150px;
+    height: 140px;
 }
 .box1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 200px;
+    height: 300px;
+    margin: 0 0 20px 20px;
+    box-shadow: 6px 15px 33px 0px rgb(169, 168, 168);
+    
+}
+ 
+.ima{
+  position: relative;
+} 
+
+.buton{
+    position: relative;
+    bottom: 120px;
+    color: black;
+}
+
+.buton button{
+    background-color: white;
+}
+.alltext{
+    text-align:justify;
+    font-size: small;
+    
+}
+.alltext p span{
+    color: green;
+    font-weight: bold;
+}
+
+.textes{
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+.textes h2{
+    letter-spacing: 2px;
+}
+.textes p{
+    font-size: 8px;
+}
+
+.progress{
+    width: 190px;
+    height: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+.progress-bar{
+    width: 100px;
+    height: 5px;
+    border: 1px solid rgb(14, 15, 14);
+    background-color: green;
+}
+.alltext-row{
+    margin-bottom: 10px;
+}
+
+.textrow{
+    margin-top: 17px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+.row .bold{
+    font-weight: bold ;
+    font-size: 8px;
+    padding-left: 15px;
+}
+
+.row p{
+    font-size: 9px;
+}
+.view{
+    width: 100%;
+    margin-top: 50px;
+}
+.view button{
+    width: 100%;
+    height: 40px;
+    background-color: palevioletred;
+    border: none;
+}
+
+.aprebox {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+}
+
+.aprebox button{
+    width: 200px;
+    height: 40px;
+    margin: auto;
 }
