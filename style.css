@@ -38,11 +38,12 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+   
 }
 
 .righ .links a{
     text-decoration: none;
-    padding: 10px;
+    padding-right: 10px;
     color: white;
 }
 
@@ -75,7 +76,7 @@ body{
     flex-direction: row;
     justify-content: baseline;
     align-items: center;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
     
 }
 
@@ -83,7 +84,7 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 140%;
-    background-color: rgb(183, 183, 236);
+    background-color:rgba(193, 137, 172, 0.6);
     position: relative;
     left: 150px;
     
@@ -105,9 +106,12 @@ body{
 .text button{
     margin-left: 30px;
     margin-top: 30px;
-    width: 100px;
+    width: 110px;
     height: 30px;
+    background-color: #5E4DCD;
+    border: none;
 }
+
 
 /* --------------------2eme parti--------------------------------- */
 
@@ -158,7 +162,7 @@ body{
     align-items: center;
     width: 200px;
     height: 300px;
-    margin: 0 0 20px 20px;
+    margin: 30px;
     box-shadow: 6px 15px 33px 0px rgb(169, 168, 168);
     
 }
@@ -266,8 +270,7 @@ body{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 70px 0;
     background-color: pink;
 }
 .sous-sec1{
@@ -280,6 +283,68 @@ body{
     margin-bottom: 30px;
     word-spacing: 0px;
 }
+
+.sous-sous1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sous-sec2{
+    padding-right: 20px;
+}
+
+/* graph------------------------------------- */
+.graph{
+    width: 280px;
+    height: 150px;
+    background-color: rgba(218, 210, 215, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bar{
+    border-right: 1px solid white;
+    flex-grow: 1;
+    margin-left: 23px;
+    width: 10px;
+ 
+}
+.bar1{
+    height: 20%;
+}
+
+.bar2{
+    height: 40%;
+}
+
+.bar3{
+    height: 60%;
+}
+
+.bar4{
+    height: 30%;
+}
+
+.bar5{
+    height: 70%;
+}
+
+.bar6{
+    height: 50%;
+}
+
+.bar7{
+    height: 70%;
+}
+
+.bar8{
+    height: 50%;
+}
+/* ------------------------------------------- */
 .sous-sec2 p{
     font-size: small;
 }
@@ -293,7 +358,7 @@ body{
 .sous-sous2{
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 /* avant derniere--------------------------------------------- */
