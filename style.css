@@ -366,6 +366,7 @@ body{
 .sectionfinal{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
@@ -429,3 +430,11 @@ input{
     background:none;
     border: none;
 }
+/* _________________________________________________________________ */
+ @media  screen and (max-width: 768px) {
+    
+.sous-sous1-1 img {
+    width: 100%;
+   
+}
+ }
