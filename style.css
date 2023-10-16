@@ -19,6 +19,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
 }
 
 .navbar{
@@ -26,10 +27,18 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid green;
     width: 100%;
-    padding: 20px 0 20px 10px; 
+    margin-top: 10px;
     color: white;
+}
+.navbar p{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
 }
 
 .righ{
@@ -45,75 +54,100 @@ body{
     padding-right: 10px;
     color: white;
 }
-.righ  .button{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
 
-.righ  .button .orange{
-    width: Hug (135px);
-    height: Hug (54px);
+
+.righ .button button{
+    width: 135px;
+    height: 54px;
     padding: 16px, 40px, 14px, 40px;
     gap: 4px;
     background-color:#5E4DCD;
-    border: none;
-    color: white;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
+    color: #FFFFFF;
+
+   
 }
 
-.righ  .button button{
-    padding: 5px 20px ;
+.righ  .button1 button {
     background-color: #FFD2DD;
-    box-shadow: 6px 6px 25px rgba(235, 171, 208, 0.5);
-    border: none;
-    color: blue;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.bul{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: center;
-    margin: 30px 0 0 0;
+    width: 135px;
+    height: 54px;
+    padding: 16px, 40px, 14px, 40px;
+    gap: 4px;
+    color: #5E4DCD;
+    ;
     
 }
 
+
 .bull{
-    width: 250px;
-    height: 250px;
+   
     border-radius: 140%;
     background-color:rgba(193, 137, 172, 0.6);
     position: relative;
-    left: 150px;
+    width: 558px;
+    height: 558px;
+    left: 227px;
+    bottom: 250px;
     
 }
 
 .text {
-    text-align: justify;
+     width: Hug (770px);
+    height: Hug (374px);
     position: relative;
-    right: 60px;
+    top: 221px;
+    left: 375px;
+    gap: 40px;
+    z-index: 1;
+
 }
 
-/* .text h1 p{
-    margin: 0;
-    font-weight: lighter;
-    letter-spacing: 0px;
-    word-spacing: 0px;
-} */
+.text h1{
+    font-family: Josefin Sans;
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+} 
+.text p{
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
 
-.text button{
-    margin-left: 30px;
-    margin-top: 30px;
-    width: 110px;
-    height: 30px;
+}
+
+.text .bu{
+    width: 270px;
+    height: 70px;
+    padding: 24px 40px 22px 40px;
+    gap: 4px;
     background-color: #5E4DCD;
-    border: none;
+    text-align: center;
+    
 }
+.text .bu button{
+    font-family: Josefin Sans;
+    width: 110px;
+    height: 24px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    background: none;
+    border: none;
+   
+
+}
+
 
 /* --------------------2eme parti--------------------------------- */
 
@@ -432,18 +466,18 @@ input{
 }
 /* _________________________________________________________________ */
  @media  screen and (max-width: 768px) {
-    .navbar{
+    /* .navbar{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid green;
+        
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
         color: white;
-    }
-    .righ  .button{
+    } */
+    /* .righ  .button{
         margin-left: 10px;
     }
     .righ  .button button{
@@ -455,8 +489,8 @@ input{
         letter-spacing: 2px;
         text-transform: uppercase;
         font-weight: bold;
-    }
-
+    } */
+/* 
  .bull{
       width: 250px;
       height: 250px;
@@ -473,9 +507,9 @@ input{
     position: relative;
     right: 100px;
    
-}
+} */
 
-
+/* 
 .text h1{
     margin: 0;
     font-weight: bold;
@@ -488,7 +522,7 @@ input{
     letter-spacing: 0px;
     word-spacing: 0px;
     font-size: 16px;
-}
+} */
 
 /* -----------------------------partie2-------------- */
 
@@ -514,7 +548,7 @@ input{
  /* __________________________________________________________________ */
 
  @media  screen and (max-width: 498px){
-    .bull{
+    /* .bull{
         width: 250px;
         height: 250px;
         border-radius: 140%;
@@ -522,14 +556,14 @@ input{
         position: relative;
         left: 70px;
           
-   }
+   } */
    
-.text button {
+/* .text button {
     margin-left: 10px;
     margin-top: 30px;
     width: 100px;
     height: 30px;
     background-color: #5E4DCD;
     border: none;
-}
+} */
  }
