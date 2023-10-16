@@ -28,8 +28,7 @@ body{
     align-items: center;
     border: 1px solid green;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 10px; 
     color: white;
 }
 
@@ -46,7 +45,11 @@ body{
     padding-right: 10px;
     color: white;
 }
-
+.righ  .button{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
 .righ  .button .orange{
     width: Hug (135px);
@@ -96,12 +99,12 @@ body{
     right: 60px;
 }
 
-.text h1 p{
+/* .text h1 p{
     margin: 0;
     font-weight: lighter;
     letter-spacing: 0px;
     word-spacing: 0px;
-}
+} */
 
 .text button{
     margin-left: 30px;
@@ -111,7 +114,6 @@ body{
     background-color: #5E4DCD;
     border: none;
 }
-
 
 /* --------------------2eme parti--------------------------------- */
 
@@ -268,9 +270,8 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 70px 0;
+    margin: 25px 0;
+    padding: 50px 0;
     background-color: pink;
 }
 .sous-sec1{
@@ -372,7 +373,7 @@ body{
     margin-top: 50px;
     margin-bottom: 10px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .sous-sec1-1{
@@ -397,21 +398,15 @@ body{
 
 /* -------------footer-------------------------- */
 .footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items:baseline;
-    margin-top: 25px;
-    margin-bottom: 50px;
-    padding-left: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
     background-color: rgb(214, 213, 213);
 }
 .foot1{
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     
@@ -419,11 +414,16 @@ body{
 
 .fot1{
     font-size: 12px;
-    padding-left: 100px;
+    padding-right: 20px;
 }
 
 .fot1 p{
-    margin-top: 12px;
+    font-size: 8px;
+}
+
+.foot2{
+    margin-top: 20px;
+    
 }
 
 input{
@@ -432,6 +432,78 @@ input{
 }
 /* _________________________________________________________________ */
  @media  screen and (max-width: 768px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid green;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+    }
+    .righ  .button{
+        margin-left: 10px;
+    }
+    .righ  .button button{
+        padding: 5px 10px ;
+        background-color: #FFD2DD;
+        box-shadow: 6px 6px 25px rgba(235, 171, 208, 0.5);
+        border: none;
+        color: blue;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+ .bull{
+      width: 250px;
+      height: 250px;
+      border-radius: 140%;
+      background-color:rgba(193, 137, 172, 0.6);
+      position: relative;
+      left: 100px;
+        
+ }
+    
+
+.text {
+    text-align: justify;
+    position: relative;
+    right: 100px;
+   
+}
+
+
+.text h1{
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: 18px;
+}
+.text p{
+    margin: 0;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: 16px;
+}
+
+/* -----------------------------partie2-------------- */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+ }
+ .tex2{
+     padding-bottom: 20px;
+     padding-left: 20px;
+ }
     
 .sous-sous1-1 img {
     width: 100%;
