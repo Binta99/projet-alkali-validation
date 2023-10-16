@@ -510,3 +510,26 @@ input{
    
 }
  }
+
+ /* __________________________________________________________________ */
+
+ @media  screen and (max-width: 498px){
+    .bull{
+        width: 250px;
+        height: 250px;
+        border-radius: 140%;
+        background-color:rgba(193, 137, 172, 0.6);
+        position: relative;
+        left: 70px;
+          
+   }
+   
+.text button {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: #5E4DCD;
+    border: none;
+}
+ }
