@@ -81,22 +81,22 @@ body{
 
 .bull{
    
-    border-radius: 140%;
+    border-radius: 50%;
     background-color:rgba(193, 137, 172, 0.6);
     position: relative;
-    width: 558px;
-    height: 558px;
+    width: 458px;
+    height: 458px;
     left: 227px;
     bottom: 250px;
     
 }
 
 .text {
-     width: Hug (770px);
-    height: Hug (374px);
+    width: 770px;
+    height: 374px;
     position: relative;
-    top: 221px;
-    left: 375px;
+    top: 231px;
+    left: 320px;
     gap: 40px;
     z-index: 1;
 
@@ -104,9 +104,9 @@ body{
 
 .text h1{
     font-family: Josefin Sans;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700px;
-    line-height: 80px;
+    line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
@@ -115,8 +115,8 @@ body{
 .text p{
     font-family: Josefin Sans;
     font-size: 24px;
-    font-weight: 400px;
-    line-height: 32px;
+    font-weight: 300px;
+    line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
@@ -173,7 +173,7 @@ body{
 }
 
 .allbox p{
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     
 }
@@ -188,7 +188,7 @@ body{
 }
 
 .box1 img{
-    width: 200px;
+    width: 300px;
     height: 140px;
 }
 .box1{
@@ -196,9 +196,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 330px;
     margin: 30px;
+    padding: 0 10px;
     box-shadow: 6px 15px 33px 0px rgb(169, 168, 168);
     
 }
@@ -434,29 +435,36 @@ body{
 .footer{
     margin-top: 15px;
     margin-bottom: 10px;
-    padding: 20px;
-    background-color: rgb(214, 213, 213);
+    padding: 70px 20px 0 20px;
+    background-color: #ECECEC;
+    height: 100%;
 }
 .foot1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: baseline;
     flex-wrap: wrap;
     
 }
 
 .fot1{
-    font-size: 12px;
-    padding-right: 20px;
+    font-size: 24px;
 }
 
 .fot1 p{
-    font-size: 8px;
+    font-size: 18px;
+    line-height: 2;
+}
+.form{
+    text-align:left;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-bottom: 20px;
 }
 
 .foot2{
-    margin-top: 20px;
+ 
     
 }
 
@@ -465,64 +473,128 @@ input{
     border: none;
 }
 /* _________________________________________________________________ */
- @media  screen and (max-width: 768px) {
-    /* .navbar{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: white;
-    } */
-    /* .righ  .button{
-        margin-left: 10px;
-    }
-    .righ  .button button{
-        padding: 5px 10px ;
-        background-color: #FFD2DD;
-        box-shadow: 6px 6px 25px rgba(235, 171, 208, 0.5);
-        border: none;
-        color: blue;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-weight: bold;
-    } */
-/* 
- .bull{
-      width: 250px;
-      height: 250px;
-      border-radius: 140%;
-      background-color:rgba(193, 137, 172, 0.6);
-      position: relative;
-      left: 100px;
-        
- }
+ @media screen and (max-width: 768px){
+   
+
+.navbar p{
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
+}
+
+.righ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.righ .links a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+}
+
+
+.righ .button button{
+    width: 105px;
+    height: 54px;
+    padding: 16px, 40px, 14px, 40px;
+    gap: 4px;
+    background-color:#5E4DCD;
+    color: #FFFFFF;
+
+   
+}
+
+.righ  .button1 button {
+    background-color: #FFD2DD;
+    width: 105px;
+    height: 54px;
+    padding: 16px, 40px, 14px, 40px;
+    gap: 4px;
+    color: #5E4DCD;
+    ;
     
+}
+
+
+.bull{
+   
+     border-radius: 50%; 
+     position: relative;
+    width: 358px;
+    height: 358px;
+    left: 40px;
+    bottom: 250px; 
+    
+}
 
 .text {
-    text-align: justify;
+    width: 100%;
+    height: 100%;
     position: relative;
-    right: 100px;
-   
-} */
+    top: 50px;
+    left: 100px;
+    gap: 40px;
+    z-index: 1;
 
-/* 
-.text h1{
-    margin: 0;
-    font-weight: bold;
-    letter-spacing: 0px;
-    word-spacing: 0px;
-    font-size: 18px;
 }
+
+.text h1{
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+} 
 .text p{
-    margin: 0;
-    letter-spacing: 0px;
-    word-spacing: 0px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.text .bu{
+    width: 200px;
+    height: 70px;
+    padding: 14px 30px 12px 30px;
+    gap: 4px;
+    background-color: #5E4DCD;
+    text-align: center;
+    
+}
+.text .bu button{
+    font-family: Josefin Sans;
+    width: 110px;
+    height: 24px;
+
     font-size: 16px;
-} */
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    background: none;
+    border: none;
+   
+
+}
+
+
+
 
 /* -----------------------------partie2-------------- */
 
@@ -543,27 +615,178 @@ input{
     width: 100%;
    
 }
+
  }
 
  /* __________________________________________________________________ */
 
  @media  screen and (max-width: 498px){
-    /* .bull{
-        width: 250px;
-        height: 250px;
-        border-radius: 140%;
-        background-color:rgba(193, 137, 172, 0.6);
-        position: relative;
-        left: 70px;
-          
-   } */
+    .bull{
+       left: 10px;
+       bottom: 120px; 
+       
+   }
    
-/* .text button {
-    margin-left: 10px;
-    margin-top: 30px;
-    width: 100px;
-    height: 30px;
+   .text {
+       top: 150px;
+       left: 100px;
+       gap: 10px;
+       z-index: 1;
+   
+   }
+   
+   .text h1{
+       font-family: Josefin Sans;
+       font-size: 40px;
+       font-weight: 100;
+       line-height: 80px;
+       letter-spacing: 0em;
+       text-align: left;
+       color: white;
+       
+   } 
+   .text p{
+       font-family: Josefin Sans;
+       font-size: 24px;
+       font-weight: 200;
+       line-height: 32px;
+       letter-spacing: 0em;
+       text-align: left;
+       color: #FFFFFF;
+   
+   }
+   
+   .text .bu{
+       width: 200px;
+       height: 70px;
+       padding: 14px 30px 12px 30px;
+       gap: 4px;
+       background-color: #5E4DCD;
+       text-align: center;
+       
+   }
+ }
+
+ /* _______________________________________________________________________ */
+ @media  screen and ( min-width: 780px) and ( max-width: 1200px){
+    
+
+.navbar p{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
+}
+
+.righ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.righ .links a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+}
+
+
+.righ .button button{
+    width: 135px;
+    height: 54px;
+    padding: 16px, 40px, 14px, 40px;
+    gap: 4px;
+    background-color:#5E4DCD;
+    color: #FFFFFF;
+
+   
+}
+
+.righ  .button1 button {
+    background-color: #FFD2DD;
+    width: 135px;
+    height: 54px;
+    padding: 16px, 40px, 14px, 40px;
+    gap: 4px;
+    color: #5E4DCD;
+    ;
+    
+}
+
+
+.bull{
+   
+    border-radius: 50%;
+    background-color:rgba(193, 137, 172, 0.6);
+    position: relative;
+    width: 458px;
+    height: 458px;
+    left: 180px;
+    bottom: 227px;
+    
+}
+
+.text {
+    width: 770px;
+    height: 374px;
+    position: relative;
+    top: 231px;
+    left: 275px;
+    gap: 40px;
+    z-index: 1;
+
+}
+
+.text h1{
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+} 
+.text p{
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.text .bu{
+    width: 270px;
+    height: 70px;
+    padding: 24px 40px 22px 40px;
+    gap: 4px;
     background-color: #5E4DCD;
+    text-align: center;
+    
+}
+.text .bu button{
+    font-family: Josefin Sans;
+    width: 110px;
+    height: 24px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    background: none;
     border: none;
-} */
+   
+
+}
+
+
  }
